@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		760697B11CDDAD72003674B3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 760697B01CDDAD72003674B3 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		760697AB1CDDAD72003674B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		760697AD1CDDAD72003674B3 /* MoonAgeAgent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MoonAgeAgent; sourceTree = BUILT_PRODUCTS_DIR; };
+		760697B01CDDAD72003674B3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		76F710CA1CE59725003B053B /* OpenWeatherCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenWeatherCodes.h; path = ../Includes/OpenWeatherCodes.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		760697AA1CDDAD72003674B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		760697A41CDDAD72003674B3 = {
+			isa = PBXGroup;
+			children = (
+				76F710CA1CE59725003B053B /* OpenWeatherCodes.h */,
+				760697AF1CDDAD72003674B3 /* MoonAge */,
+				760697AE1CDDAD72003674B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		760697AE1CDDAD72003674B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				760697AD1CDDAD72003674B3 /* MoonAgeAgent */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		760697AF1CDDAD72003674B3 /* MoonAge */ = {
+			isa = PBXGroup;
+			children = (
+				760697B01CDDAD72003674B3 /* main.c */,
+			);
+			name = MoonAge;
+			path = moonPhase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		760697AC1CDDAD72003674B3 /* MoonAgeAgent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760697B41CDDAD72003674B3 /* Build configuration list for PBXNativeTarget "MoonAgeAgent" */;
+			buildPhases = (
+				760697A91CDDAD72003674B3 /* Sources */,
+				760697AA1CDDAD72003674B3 /* Frameworks */,
+				760697AB1CDDAD72003674B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoonAgeAgent;
+			productName = moonPhase;
+			productReference = 760697AD1CDDAD72003674B3 /* MoonAgeAgent */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		760697A51CDDAD72003674B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Zoongo Ltd";
+				TargetAttributes = {
+					760697AC1CDDAD72003674B3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 760697A81CDDAD72003674B3 /* Build configuration list for PBXProject "MoonAgeAgent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 760697A41CDDAD72003674B3;
+			productRefGroup = 760697AE1CDDAD72003674B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				760697AC1CDDAD72003674B3 /* MoonAgeAgent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		760697A91CDDAD72003674B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760697B11CDDAD72003674B3 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		760697B21CDDAD72003674B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		760697B31CDDAD72003674B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		760697B51CDDAD72003674B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "/usr/local/mysql/include/**";
+				LIBRARY_SEARCH_PATHS = "/usr/local/mysql/lib/**";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lmysqlclient",
+					"-lm",
+					"-lz",
+					"-lcurl",
+					"-DMYMYSQL_CXXFLAGS=-stdlib=libc",
+				);
+				PRODUCT_NAME = MoonAgeAgent;
+			};
+			name = Debug;
+		};
+		760697B61CDDAD72003674B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "/usr/local/mysql/include/**";
+				LIBRARY_SEARCH_PATHS = "/usr/local/mysql/lib/**";
+				OTHER_LDFLAGS = (
+					"-lmysqlclient",
+					"-lm",
+					"-lz",
+					"-lcurl",
+					"-DMYMYSQL_CXXFLAGS=-stdlib=libc",
+				);
+				PRODUCT_NAME = MoonAgeAgent;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		760697A81CDDAD72003674B3 /* Build configuration list for PBXProject "MoonAgeAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760697B21CDDAD72003674B3 /* Debug */,
+				760697B31CDDAD72003674B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		760697B41CDDAD72003674B3 /* Build configuration list for PBXNativeTarget "MoonAgeAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760697B51CDDAD72003674B3 /* Debug */,
+				760697B61CDDAD72003674B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 760697A51CDDAD72003674B3 /* Project object */;
+}

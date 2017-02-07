@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7697FCC01CC34EFF00A6ED30 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7697FCBF1CC34EFF00A6ED30 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7697FCBA1CC34EFF00A6ED30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7637BA901CE59BC300C61D3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = en.lproj/InitialStateAgent; sourceTree = "<group>"; };
+		768F76371CE83200008799E0 /* sqlStatements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sqlStatements.h; path = ../Includes/sqlStatements.h; sourceTree = "<group>"; };
+		768F76381CE833F9008799E0 /* InitialStateAgent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InitialStateAgent.h; path = ../Includes/InitialStateAgent.h; sourceTree = "<group>"; };
+		7693EC591CE58FBF004AAA4B /* databaseCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = databaseCredentials.h; path = ../Includes/databaseCredentials.h; sourceTree = "<group>"; };
+		7697FCBF1CC34EFF00A6ED30 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		76A1F42D1CE5F6ED00EADF40 /* InitialStateAgent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InitialStateAgent; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A1F42F1CE5F87500EADF40 /* emojiDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = emojiDefinition.h; path = ../Includes/emojiDefinition.h; sourceTree = "<group>"; };
+		76D9AE961CE598FF00D2FB29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = en.lproj/InitialStateAgent; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7697FCB91CC34EFF00A6ED30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7697FCB31CC34EFF00A6ED30 = {
+			isa = PBXGroup;
+			children = (
+				768F76381CE833F9008799E0 /* InitialStateAgent.h */,
+				768F76371CE83200008799E0 /* sqlStatements.h */,
+				76A1F42F1CE5F87500EADF40 /* emojiDefinition.h */,
+				7693EC591CE58FBF004AAA4B /* databaseCredentials.h */,
+				7697FCBE1CC34EFF00A6ED30 /* InitialStateAgent */,
+				7697FCBD1CC34EFF00A6ED30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7697FCBD1CC34EFF00A6ED30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76D9AE971CE598FF00D2FB29 /* InitialStateAgent */,
+				7637BA911CE59BC300C61D3D /* InitialStateAgent */,
+				76A1F42D1CE5F6ED00EADF40 /* InitialStateAgent */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7697FCBE1CC34EFF00A6ED30 /* InitialStateAgent */ = {
+			isa = PBXGroup;
+			children = (
+				7697FCBF1CC34EFF00A6ED30 /* main.c */,
+			);
+			name = InitialStateAgent;
+			path = BeeMonitor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7697FCBB1CC34EFF00A6ED30 /* InitialStateAgent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7697FCC31CC34EFF00A6ED30 /* Build configuration list for PBXNativeTarget "InitialStateAgent" */;
+			buildPhases = (
+				7697FCB81CC34EFF00A6ED30 /* Sources */,
+				7697FCB91CC34EFF00A6ED30 /* Frameworks */,
+				7697FCBA1CC34EFF00A6ED30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InitialStateAgent;
+			productName = BeeMonitor;
+			productReference = 76A1F42D1CE5F6ED00EADF40 /* InitialStateAgent */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7697FCB41CC34EFF00A6ED30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Zoongo Ltd";
+				TargetAttributes = {
+					7697FCBB1CC34EFF00A6ED30 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7697FCB71CC34EFF00A6ED30 /* Build configuration list for PBXProject "InitialStateAgent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7697FCB31CC34EFF00A6ED30;
+			productRefGroup = 7697FCBD1CC34EFF00A6ED30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7697FCBB1CC34EFF00A6ED30 /* InitialStateAgent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7697FCB81CC34EFF00A6ED30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7697FCC01CC34EFF00A6ED30 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7637BA911CE59BC300C61D3D /* InitialStateAgent */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7637BA901CE59BC300C61D3D /* en */,
+			);
+			name = InitialStateAgent;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		76D9AE971CE598FF00D2FB29 /* InitialStateAgent */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76D9AE961CE598FF00D2FB29 /* en */,
+			);
+			name = InitialStateAgent;
+			path = /Users/autonomo/Documents/BeeMonitorAgents/InitialStateAgent/../Executables;
+			sourceTree = "<absolute>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7697FCC11CC34EFF00A6ED30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7697FCC21CC34EFF00A6ED30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7697FCC41CC34EFF00A6ED30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = "/usr/local/mysql/include/**";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/usr/local/mysql/lib/**";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lmysqlclient",
+					"-lm",
+					"-lz",
+					"-lcurl",
+					"-DMYMYSQL_CXXFLAGS=-stdlib=libc",
+				);
+				PRODUCT_NAME = InitialStateAgent;
+			};
+			name = Debug;
+		};
+		7697FCC51CC34EFF00A6ED30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = "/usr/local/mysql/include/**";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/usr/local/mysql/lib/**";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lmysqlclient",
+					"-lm",
+					"-lz",
+					"-lcurl",
+					"-DMYMYSQL_CXXFLAGS=-stdlib=libc",
+				);
+				PRODUCT_NAME = InitialStateAgent;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7697FCB71CC34EFF00A6ED30 /* Build configuration list for PBXProject "InitialStateAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7697FCC11CC34EFF00A6ED30 /* Debug */,
+				7697FCC21CC34EFF00A6ED30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7697FCC31CC34EFF00A6ED30 /* Build configuration list for PBXNativeTarget "InitialStateAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7697FCC41CC34EFF00A6ED30 /* Debug */,
+				7697FCC51CC34EFF00A6ED30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7697FCB41CC34EFF00A6ED30 /* Project object */;
+}
