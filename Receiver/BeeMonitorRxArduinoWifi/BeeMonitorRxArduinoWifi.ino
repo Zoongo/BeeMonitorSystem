@@ -1,7 +1,12 @@
 //--------------------------------------------
 //--- BeeMonitor receiver
+<<<<<<< HEAD
 //--- Board: Arduino Mega 
 //--- Communication: XBee Series1 and Arduino Wifi shield
+=======
+//--- Board: Arduino Mega
+//--- Communication: XBee Series1 + WiFi
+>>>>>>> origin/master
 //--------------------------------------------
 // Copyright (C) 2015-2017 by Tomas Ivansky
 //--------------------------------------------
