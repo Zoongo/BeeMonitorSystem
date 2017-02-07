@@ -1,0 +1,8 @@
+Setup of Arduino IDE for Seeeduino Stalker 2.3
+==============================================
+
+Minimal version of IDE 1.6.5
+
+Board: Arduino Pro or Pro Mini
+Processor: ATmega 328 (3.3V 8 MHz)
+Programmer: AVRISP mkII
