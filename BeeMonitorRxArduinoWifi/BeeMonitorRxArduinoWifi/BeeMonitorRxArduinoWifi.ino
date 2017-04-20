@@ -42,9 +42,9 @@
 #define DEBUG 1
 
 
-char ssid[] = "RXMRESEARCH";        // network SSID (name)
-char pass[] = "jmkvktjkm";          // network password
-IPAddress server(172,18,0,35);      // Apache server address:
+char ssid[] = "xxxxxx";              // network SSID (name)
+char pass[] = "yyyyyy";              // network password
+IPAddress server(999,999,999,999);   // Apache server address:
 int status = WL_IDLE_STATUS;
 
 
