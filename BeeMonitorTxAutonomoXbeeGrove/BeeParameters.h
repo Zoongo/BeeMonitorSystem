@@ -40,7 +40,7 @@
 
 //--- Communication period setup 
 #define HOUR_TX 0                        // Hour fragment of tx period
-#define MINUTE_TX 30                     // Minute fragment of tx period
+#define MINUTE_TX 1                     // Minute fragment of tx period
 #define SECOND_TX 0                      // Second fragment of tx period
 
 //--- Battery status parameters

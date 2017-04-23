@@ -29,9 +29,9 @@
 //--------------------------------------------
 //--- Compiler parameters
 //--------------------------------------------
-//#define DEBUG  //--- Uncomment in the case of debug via serial monitor
-//#define XBEE  //--- Uncomment in the case of XBee Series1 communication
-#define GPRSBEE  //--- Uncomment in the case of GPRSBee Sim900 communication
+#define DEBUG  //--- Uncomment in the case of debug via serial monitor
+#define XBEE  //--- Uncomment in the case of XBee Series1 communication
+//#define GPRSBEE  //--- Uncomment in the case of GPRSBee Sim900 communication
 
 
 #include <Wire.h>
