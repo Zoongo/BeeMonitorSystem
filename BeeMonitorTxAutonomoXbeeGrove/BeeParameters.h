@@ -31,7 +31,7 @@
 #ifdef GPRSBEE
    //--- GPRSBee communication parameters
    #define APN "internet.t-mobile.cz"                               // APN of your provider
-   #define GET_URL "http://geek4bee.com/insert_mysql.php"           // URL of the PHP 
+   #define GET_URL "http://xzy/insert_mysql.php"           // URL of the PHP 
    #define LENGTHHTTP 120                                           // HTTP GET string length
    #define LENGTHSTRING 20                                          // Payload component max. length
    #define URL_TEMPLATE "%s?node=%s&value=%s&position=%s&table=%s"  // Structure of URL for the GET
